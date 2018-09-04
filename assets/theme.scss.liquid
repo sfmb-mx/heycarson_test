@@ -3335,6 +3335,14 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
   }
 }
 
+.product-form__cart-submit--featured {
+  @extend .product-form__cart-submit;
+
+  &:hover {
+    background-color: #ff5600 !important;
+  }
+}
+
 .shopify-payment-button {
   .product-single--small-image &,
   .product-single--full-image & {
@@ -6343,4 +6351,3 @@ $toolbar-height-small: 46px;
   border-bottom: 1px solid transparent;
   display: inline;
 }
-

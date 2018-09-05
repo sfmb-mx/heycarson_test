@@ -346,6 +346,7 @@ $color-navigation-text: {{ settings.color_text }};
 
 // Button colors
 $color-btn-primary: {{ settings.color_button }};
+$color-btn-hover: {{ settings.color_button_featured }};
 $color-btn-primary-text: {{ settings.color_button_text }};
 
 // Hover and focus states
@@ -3339,7 +3340,7 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
   @extend .product-form__cart-submit;
 
   &:hover {
-    background-color: #ff5600 !important;
+    background-color: $color-btn-hover !important;
   }
 }
 

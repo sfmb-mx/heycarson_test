@@ -98,6 +98,20 @@
         },
         "default": "#557B97"
       },
+        {
+        "type": "color",
+        "id": "color_button_featured",
+        "label": {
+          "de": "Primärtasten hover",
+          "en": "Primary buttons hover",
+          "es": "Botones primarios hover",
+          "fr": "Boutons primaires hover",
+          "it": "Pulsanti primari hover",
+          "ja": "主なボタン ホバー",
+          "pt-BR": "Botões hover"
+        },
+        "default": "#ff5600"
+      },
       {
         "type": "color",
         "id": "color_button_text",

@@ -346,6 +346,7 @@ $color-navigation-text: {{ settings.color_text }};
 
 // Button colors
 $color-btn-primary: {{ settings.color_button }};
+$color-btn-hover: {{ settings.color_button_featured }};
 $color-btn-primary-text: {{ settings.color_button_text }};
 
 // Hover and focus states
@@ -3332,6 +3333,14 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
 
   .product-form__item--payment-button & {
     margin-top: 10px;
+  }
+}
+
+.product-form__cart-submit--featured {
+  @extend .product-form__cart-submit;
+
+  &:hover {
+    background-color: $color-btn-hover !important;
   }
 }
 
@@ -6343,4 +6352,3 @@ $toolbar-height-small: 46px;
   border-bottom: 1px solid transparent;
   display: inline;
 }
-
